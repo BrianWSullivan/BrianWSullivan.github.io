@@ -1,7 +1,7 @@
 name: "my-website"
 output_dir: "docs"
 navbar:
-  title: "Brian W. Sullivan"
+  title: "Brian W. Sullivan, Ph.D."
   left:
     - text: "About Me"
       href: index.html
