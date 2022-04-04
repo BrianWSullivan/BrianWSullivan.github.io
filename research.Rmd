@@ -5,7 +5,7 @@ title: "Research"
 # {.tabset .tabset-fade}
 
 ## Education
-**Ph.D. Political Science** -- University of Houston, (*expected 2022*)
+**Ph.D. Political Science** -- University of Houston, 2022
 
 * Dissertation: *Powerlessness and Antiestablishment Political Behavior*
 
@@ -27,17 +27,17 @@ title: "Research"
 
 * Clifford, Scott, Yongkwang Kim, and **Brian W. Sullivan** (2019). "An Improved Question Format for Measuring Conspiracy Beliefs." *Public Opinion Quarterly.* 83(4): 690-722. https://doi.org/10.1093/poq/nfz049
 
-* Ozer, Adam L., **Brian W. Sullivan**, and Douglas Scott Van. "Viewed from Different Engels: Differences in Perceptions of Millennial Socialism Between Liberals and Conservatives." (Accepted for publication at *Political Research Quarterly*)
+* Ozer, Adam L., **Brian W. Sullivan**, and Douglas Scott Van (2022). "Viewed from Different Engels: Differences in Perceptions of Millennial Socialism Between Liberals and Conservatives." *Political Research Quarterly.* https://journals.sagepub.com/doi/pdf/10.1177/10659129211037402
 
 ## Working Papers
 
 * Clifford, Scott and **Brian W. Sullivan**. “Are We Measuring or Spreading Conspiracy Beliefs?” [Under review at *Political Science Research and Methods*]
 
-* **Sullivan, Brian W.** "Does Control Influence the Endorsement of Conspiracy Theories?: A Reinvestigation of Lacking Control, Blame, and Conspiracy Theory Beliefs." [Manuscript development]
+* **Sullivan, Brian W.** "A Reinvestigation of Lacking Control, Blame, and Conspiracy Theory Beliefs." [Manuscript development]
 
-* **Sullivan, Brian W.** "Retaking Control in American Politics: The Relationship Between Status Threat, Powerlessness, and Populism." [Manuscript development]
+* **Sullivan, Brian W.** "Lacking Control as Motivation for Populist Support." [Manuscript development]
 
-* **Sullivan, Brian W.** "When All Else Fails": Violent Tendencies of the Politically Powerless." [Manuscript Development]
+* **Sullivan, Brian W.** "The Violent Tendencies of the PoliticaLLy Powerless." [Manuscript Development]
 
 * **Sullivan, Brian W.** "Utilizing Split Matrices When Using Reversed Scored Scales to Improve Survey Reliability." [Manuscript development]
 

@@ -5,7 +5,7 @@ title: "Resume"
 # {.tabset .tabset-fade}
 
 ## Experience
-<span style="text-decoration:underline">**Principal Investigator -- Powerlessness and Antidemocratic Political Behavior, University of Houston, March 2019-Present**</span>
+<span style="text-decoration:underline">**Principal Investigator -- Powerlessness and Anti-Establishment Political Behavior, University of Houston, March 2019-Present**</span>
 
 * Plan, build, and execute 3 end-to-end original research projects around current health of American democracy.
 
@@ -98,7 +98,7 @@ title: "Resume"
 
 <span style="text-decoration:underline">**Research Experience**</span>
 
-* 6+ years experience of Quantitative data collection and analysis.
+* 6+ years experience of quantitative data collection and analysis.
 
 ## Resume PDF
 
