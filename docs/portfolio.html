@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Portfolio</title>
+
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Brian W. Sullivan, Ph.D.</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">About Me</a>
+</li>
+<li>
+  <a href="portfolio.html">Portfolio</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="resume.html">Resume</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="mailto:&lt;Sullivanbrian512@gmail.com&gt;">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://github.com/BrianWSullivan/">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/BwSull">
+    <span class="fa fa-twitter fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/briansullivan512/">
+    <span class="fa fa-linkedin fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.researchgate.net/profile/Brian-Sullivan-26">
+    <span class="fab fa-researchgate fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Portfolio</h1>
+
+</div>
+
+
+<div id="section" class="section level1 tabset tabset-fade">
+<h1 class="tabset tabset-fade"></h1>
+<div id="investigating-political-violence" class="section level2">
+<h2>Investigating Political Violence</h2>
+<p><font size="6"> <strong><em>Does a perceived lack of control push people to the breaking point of supporting politically motivated violence?</em></strong> </font></p>
+<p><font size="4"><strong>Background</strong></font></p>
+<p>Politically motivated attacks have become a norm in the United States. Evidence points to the recent U.S. Capitol riot and mass shootings at schools and religious institutions. It is important to understand why there is a growing tendency to resort to extreme violent acts within politics if the U.S. is to retain its democratic roots. <strong><em>By identifying why people support political violence, we can better develop solutions from preventing it in the future.</em></strong></p>
+<p><img src="violenceimage.png" width="50%" style="float:right; padding:10px" /></p>
+<p><font size="4"><strong>Challenge</strong></font></p>
+<p>Recent research reported a number of motivations for violent sentiments, such as affective polarization, partisan strength, violent rhetoric from elites, and increased disagreement of policy beliefs. However, these findings tend to omit a large portion of the population who are not politically interested or are apolitical altogether. This means that the majority of the U.S. public is not included in these analyses. To account for the portion of the public that does not subscribe to the left-right political dynamic, it is important to investigate underlying psychological causes that affect all members of the population.</p>
+<p>Humans have a fundamental need to feel in control over the decisions they make in their lives, even outside of politics. But many decisions are made by the political establishment, with many people believing these decisions work against them. When people feel they lack control over their lives and are faced with threats to their well-being from the political establishment, they search for ways to regain a sense of control through means outside of conventional democratic practices. Why do people generate such extreme discontent that they feel the only way to respond to these threats is with violence?</p>
+<p>When faced with consistent threats from the establishment, those who feel they lack control lean toward political violence as they reduce the validity and credibility of the establishment threatening one’s well-being by placing blame on certain powerful people. To regain a sense of control over their lives, these people will turn to violence as a last. This is how they (a) exact control over how much violence they perform and (b) regain some sense of control over their lives.</p>
+<p><font size="4"><strong>Methods</strong></font></p>
+<p>A methodological challenge I encountered during this research involved understanding how sentiments toward violence are measured in surveys. Typical agree/disagree measures tend to inflate the amount of people who support violence. These measures use vague language that may be subjectively interpreted differently from person to person. To account for these issues, I tested a new survey measure for support for political violence called the <em>least-liked measure of political violence</em>. As such, I developed a new survey measurement strategy using:</p>
+<ul>
+<li>Three observational survey samples with ~700 respondents across each survey.</li>
+</ul>
+<p><img src="Figure3.1.png" width="50%" style="float:right; padding:10px" /></p>
+<ul>
+<li><p>Modified measures for <strong>control</strong> and the least-liked measure for political violence.</p></li>
+<li><p>Exploratory factor analysis (EFA) and item response theory (IRT) in R that compares the established <strong>general political violence</strong> measure to the new <strong>least-liked</strong> violence measure.</p></li>
+<li><p>Standardized OLS regression models.</p></li>
+</ul>
+<p><font size="4"><strong>Findings &amp; Implications</strong></font></p>
+<ul>
+<li><p><strong>Perceived lack of control leads to support for political violence.</strong> Exploratory OLS regression results (Figure 3.1) indicate that an increased feeling of control among respondents is the strongest predictor of reducing support for general political violence, even when controlling for partisan and ideological strength.</p></li>
+<li><p><strong>The least-liked measure is a reliable survey measure and is composed of two distinct factors.</strong> The EFA table (below) indicates that all items of the least-liked and general violence measures load onto three separate factors (i.e., verbal, physical, and general violence factors). However, all items associated with the verbal and physical facets of the least-liked measure of violence provide more influence on the single factor than do the general violence items.</p></li>
+</ul>
+<p><img src="IRT_figures.png" width="50%" style="float:right; padding:10px" /></p>
+<p><img src="EFA_table.png" width="50%" style="float:right; padding:10px" /></p>
+<ul>
+<li><p><strong>The least-liked measure provides more information about the latent violence construct than the general violence measure.</strong> The Item Information Curves (Figure 3.2) of the graded response model for variables with multiple response options indicate the items of the verbal and physical facets of the least-liked measure provide more information about the latent violence trait than do the general violence measures typically used in research investigating support for political violence.</p></li>
+<li><p><strong>Despite the measurement improvement, perceptions of control remain strong predictors fo sentimeents of political violence.</strong> Further standardized OLS investigations indicate that when analyzing the relationship between feelings of control and support for political violence, higher feelings of control continue to reduce sentiments of political violence across every measure used (Figure 3.4). Despite the improvements made with the least-liked measure, people will gravitate towards supporting political violence when they feel they lack control over making decisions in their lives.</p></li>
+</ul>
+<p><img src="Forrestviolence.png" width="50%" style="float:center; padding:10px" /></p>
+</div>
+<div id="support-for-populism" class="section level2">
+<h2>Support for Populism</h2>
+<p><font size="6"><strong><em>What underlying factors lead to populist support among democrats and republicans?</em></strong></font></p>
+<p><font size="4"><strong>Background</strong></font></p>
+<p>Many leading political world powers have undergone, or are still in the process of subscribing to, a populist reformation. With the party platforms of Donald Trump and Bernie Sanders, the United States has not been immune to this global trend. <em>Populism</em> is an ideology that considers society as two separate antagonistic groups: the pure people versus the corrupt elite. <em>Populists</em>, then, strive to appeal to the public and their concerns. The premise of populism argues that politics should be an expression of the general will of the people.</p>
+<p><img src="populismimage.png" width="50%" style="float:right; padding:10px" /></p>
+<p>Despite populism’s goal of being of and for the will of the people, to be successful, populism needs a central figure to direct its messages. Due to an increase in economic and social grievances, populism has gained significant momentum within the last decade. Since its central messages revolve around anti-elitist and people’s centrism, populism poses a significant risk to democratic norms and principles, as democracies, like the U.S., retain the necessity of governance by representation. <strong><em>To prevent the spread of populism, it is important to investigate why people feel it is the solution to their problems.</em></strong></p>
+<p><font size="4"><strong>Challenge</strong></font></p>
+<p>Recent literature on populism in the U.S. almost exclusively focuses on anti-Washington D.C. and anti-immigrant right wing populism of Donald Trump, which stems from increasing threats to perceived social status. Despite different sources of discontent and threats, there is a strong interest among liberals for populist policies, which is apparent in the rhetoric of and support for Bernie Sanders.</p>
+<p>Perceptions of lacking control over making decisions in life develop from social and economic discontent thought to be caused by the current political establishment. In other words, threats to levels of perceived control stem from events experienced by the individual in the world they live in, that an individual has little personal control over. Most interestingly, the sentiments around lacking control over life decisions are shared by liberals <em>and</em> conservatives.</p>
+<p>Populist sentiments can be seen in everyday occurences, such as the COVID-19 pandemic. Considering an individual cannot change the trajectory of the pandemic on their own, they ultimately feel they have no control over basic human functions that are obtained when earning a living. To regain a sense of control, these individuals will seek out alternative ways to regain a sense of control along with others who also feel this way. Since some populists discuss ways regain control over the pandemic in alternative ways (e.g., retaining personal freedom by not wearing masks), those low in control will support these populist politics because it makes them feel they have regained control over their lives, regardless of whether it actually does or not.</p>
+<p><font size="4"><strong>Methods</strong></font></p>
+<p>I tested this theory with:</p>
+<ul>
+<li>Two observational analyses of 700 and 1,000 respondents</li>
+</ul>
+<p>                   * Developed new, adapted existing, and compiled latent measures of perceptions of <strong>control</strong> and <strong>populism</strong>.</p>
+<p><img src="Popexp.png" width="50%" style="float:right; padding:10px" /></p>
+<ul>
+<li>A survey experiment that combined two survey samples for a total of 1,844 respondents.</li>
+</ul>
+<p>                   * I manipulated the level of populist rhetoric used in a fictional                       political party’s policy platforms to gauge how this changes                       how people at varying levels of control feel about the party.</p>
+<p>                   * 2 x 2 design, where self-identified democrats and republicans                       received either a populist or neutral policy platform of a                       fictional political party.</p>
+<p>                      (The populist conservative condition is on the right.)</p>
+<p><font size="4"><strong>Findings &amp; Implications</strong></font></p>
+<ul>
+<li><p>Through OLS regressions, I found that lacking control sometimes increased overall support for populism, while other times it decreased perceptions of control on the observational study. <strong>This tells us that lacking control is not a strong predictor of populist support.</strong></p></li>
+<li><p>Populist rhetoric had little influence on how favorable republicans or democrats felt about the party compared to those who received the neutral version of the party, at all levels of control. <strong>This demonstrates that when political parties use populist rhetoric, it does not effect how favorable these parties are.</strong></p></li>
+</ul>
+<p><img src="Figure_2.1_snapshot.png" width="70%" style="float:middle; padding:10px" /></p>
+<ul>
+<li>Populist rhetoric had little influence on how republicans and democrats felt the party was looking out for the people compared to those who received the neutral version of the party at all levels of control. <strong>This further confirms finding shows us that when political parties use populist rhetoric, it does not effect how people perceive these parties.</strong></li>
+</ul>
+<p><img src="Figure_2.2_snapshot.png" width="70%" style="float:middle; padding:10px" /></p>
+</div>
+<div id="conspiracy-theory-endorsement" class="section level2">
+<h2>Conspiracy Theory Endorsement</h2>
+<p><font size="6"><strong><em>What motivates people to believe in conspiracy theories?</em></strong></font></p>
+<p><font size="4"><strong>Background</strong></font></p>
+<p><img src="ctimage.png" width="50%" style="float:right; padding:10px" /></p>
+<p>Conspiracy theories pose a fundamental threat to democratic norms in the United States. <em>Conspiracy theories</em> are proposed explanations of events that fixates blames a small group of people acting in secret for their own benefit against a common goal that fails to meet an agreed upon standard of evidence. Research within the last ten years around conspiracy theories demonstrates that:</p>
+<ul>
+<li><p>Half of the American public endorses at least one conspiracy theory.</p></li>
+<li><p>30% of Americans believe that the 2020 presidential election was fraudulent.</p></li>
+<li><p>More than 20% of Americans believe COVID-19 was intentionally developed in a lab.</p></li>
+</ul>
+<p>These beliefs have negatively impacted the American public’s trust toward elections and the healthcare system, which directly result in lower vaccination rates and violent movements at federal government buildings.</p>
+<p>People believe in conspiracy theories as a way of satisfying particular needs. While some endorse conspiracy theories as a way of understanding the world they live in, people who feel a lack of control in their lives endorse conspiracy theories as a way of placing blame on people or groups they feel are responsible for threats to their well-being. <strong><em>To help curb the endorsement of misinformation and conspiracy theories, it is essential to identify why people subscribe to them in the first place.</em></strong></p>
+<p><font size="4"><strong>Challenge</strong></font></p>
+<p>Scholars have established that that lacking control is a consistent predictor of conspiracy theory beliefs; however, the empirical findings reported are more mixed. I wanted to understand why. I surveyed the conspiracy theory research and analyzed the methods used. Ultimately, I found two measurement inconsistencies among 13 academic articles that investigated the relationship between control and conspiracy theories.</p>
+<ul>
+<li><strong>Inconsistency 1:</strong> There are three theoretically distinct ways of measuring control.</li>
+</ul>
+<p>                    1. One subset of the literature measures control as it relates to control over the events in one’s life.</p>
+<p>                    2. A second subset measures control as having influence over others in their social environment.</p>
+<p>                    3. The final subset measures control as political efficacy, or the perception one has over their ability to wield political influence. These                          distinct concepts may contribute to these mixed results.</p>
+<ul>
+<li><strong>Inconsistency 2:</strong> Conspiracy theories are measured in two distinct ways.</li>
+</ul>
+<p>                    1. One subset of the literature measures the belief in particular conspiracy theories, such as those dealing with the 9/11 attacks, or the                          2020 presidential election.</p>
+<p>                    2. Another subset measures an overall tendency to engage in conspiracist ideation (i.e., the general tendency to explain <em>why</em> events                          occur with conspiracy theories).</p>
+<p>My challenge: <em><strong>Identify consistencies within one measure of control over another related to conspiracy theory beliefs.</strong></em></p>
+<p><img src="ctexp.png" width="50%" style="float:right; padding:10px" /></p>
+<p><font size="4"><strong>Methods</strong></font></p>
+<ul>
+<li>Designed and programmed cross-sectional online surveys.</li>
+</ul>
+<p>                    * Recruited 670-1,100 participants across four samples.</p>
+<p>                    * Measured underlying feelings of <em>control</em>, <em>power</em>, and <em>political                        efficacy</em>.</p>
+<p>                    * Utilized novel survey measure for <em>conspiracy theory belief</em>.</p>
+<ul>
+<li>Designed original survey experiment <em>(N=801)</em> that manipulated the level of conspiratorial rhetoric in fictional news headlines.</li>
+</ul>
+<p>(An example of how news headlines were presented to respondents can be seen on the right)</p>
+<p><font size="4"><strong>Findings &amp; Implications</strong></font></p>
+<p>Using Poisson, negative binomial, and fixed effects analyses in the exploratory cross-sectional survey, I found that:</p>
+<p><img src="Figure_1.1_snapshot.png" width="50%" style="float:right; padding:10px" /></p>
+<ul>
+<li><p><strong>Control is positive.</strong> Feeling in control over decisions in one’s life has a consistently positive effect on reducing conspiratorial ideation, but less so on the number of specific conspiracy theories endorsed.</p></li>
+<li><p><strong>Having power over others reduces conspiracy theory beliefs.</strong> Having power over others reduced conspiracy ideation at times and the number of specific conspiracy theories endorsed, but is less consistent across models and samples.</p></li>
+<li><p><strong>Political efficacy decreases conspiritorial beliefs.</strong> Political efficacy is the strongest predictor of decreasing conspiracy theory beliefs in all instances.</p></li>
+<li><p><strong>Party affiliation matters.</strong> Democrats endorse more conspiracy theories that blame members of, or the entirety of the Republican party, while Republicans endorse more conspiracy theories that place blame on members of, or the entirety of the Democratic Party, conditional on the level of control and power they feel they have (four figures on the right).</p></li>
+<li><p><strong>Conspiracy theories, control, and the media.</strong> The level of conspiratorial rhetoric in news headlines has no influence on whether individuals will be more interested in reading that headline, at any level of control (bottom figure).</p></li>
+</ul>
+<p><img src="Group_compare_plot.png" width="40%" style="float:center; padding:10px" /></p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
