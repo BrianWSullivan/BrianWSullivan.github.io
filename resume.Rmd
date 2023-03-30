@@ -5,21 +5,39 @@ title: "Resume"
 # {.tabset .tabset-fade}
 
 ## Experience
-<span style="text-decoration:underline">**Principal Investigator -- Powerlessness and Anti-Establishment Political Behavior, University of Houston, March 2019-Present**</span>
+<span style="text-decoration:underline">**Evaluation Specialist -- Foreign Services Institute, U.S. Department of State, June 2022-Present**</span>
 
-* Plan, build, and execute 3 end-to-end original research projects around current health of American democracy.
+* Design, program, and monitor surveys and dashboards for 8+ evaluation courses with more than 75+ students weekly. 
 
-* Craft grant proposals, novel survey measures, and experiments for diverse sampling populations through CloudResearch, MTurk, and Lucid recruiting platforms.
+* Implement standardized attitudinal and behavioral evaluation survey questions for single and multi-week training courses. 
 
-* Communicate the significance of findings within relevant academic journals and at conferences.
+* Define survey best practices for stakeholders to establish efficient processes for data collection and analysis.
 
-<span style="text-decoration:underline">**Quantitative Researcher -- U.S. Study of Political Behavior, University of Houston, August 2019-Present**</span>
+* Audit survey practices and develop multi-staged methodological improvement plans. 
 
-* Manage and facilitate 6+ independently-run, multi-stage survey studies with Principal Investigator.
+* Co-lead implementation of Qualtrics quantitative and qualitative survey analysis and dashboard creation.
 
-* Design and analyze 6+ single- and multi-wave, large-n surveys that investigate growing trends in misinformation, conspiracy theories, polarization, and partisanship and how/if researchers affect these attitudes with survey exposure.
+* Co-direct departmental migration of survey implementation from Survey Monkey to Qualtrics. 
 
-* Develop, program, and deploy survey experiments including a hand-coded conjoint design in Qualtrics.
+<span style="text-decoration:underline">**Principal Investigator -- Powerlessness and Anti-Establishment Political Behavior, University of Houston, March 2019-May 2022**</span>
+
+* Planned, built, and executed 3 end-to-end original research projects around current health of American democracy.
+
+* Crafted grant proposals, novel survey measures, and experiments for diverse sampling populations through CloudResearch, MTurk, and Lucid recruiting platforms.
+
+* Communicated the significance of findings in relevant academic journals and conferences.
+
+<span style="text-decoration:underline">**Quantitative Researcher -- U.S. Study of Political Behavior, University of Houston, August 2019-May 2022**</span>
+
+* Managed 6+ independently run, multi-stage survey studies.
+
+* Designed and analyzed 6+ single- and multi-wave, large-n surveys that investigate growing trends in misinformation, conspiracy theories, polarization, and partisanship and how/if researchers affect these attitudes with survey exposure.
+
+* Developed, programmed, and deployed survey experiments, including hand-coded conjoint designs.
+
+* Presented findings to peers at local and national academic conferences.
+
+* Designed and published 20+ novel survey questions about conspiratorial rumors and misinformation.
 
 <span style="text-decoration:underline">**Quantitative Researcher -- U.S. Study of Misinformation & Conspiracy Theories, University of Houston, August 2017-July 2019**</span>
 
@@ -72,7 +90,7 @@ title: "Resume"
 
 * R-Studio
 
-* Qualtrics
+* Qualtrics (XM, 360, and Dashboard design)
 
 * LaTeX
 
@@ -98,7 +116,7 @@ title: "Resume"
 
 <span style="text-decoration:underline">**Research Experience**</span>
 
-* 6+ years experience of quantitative data collection and analysis.
+* 7+ years experience of quantitative data collection and analysis.
 
 ## Resume PDF
 
