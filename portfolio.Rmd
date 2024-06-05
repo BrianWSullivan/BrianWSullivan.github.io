@@ -12,10 +12,6 @@ title: "Portfolio"
 
 Politically motivated attacks have become a norm in the United States. Evidence points to the recent U.S. Capitol riot and mass shootings at schools and religious institutions. It is important to understand why there is a growing tendency to resort to extreme violent acts within politics if the U.S. is to retain its democratic roots. **_By identifying why people support political violence, we can better develop solutions from preventing it in the future._**
 
-```{r out.width='50%', echo=FALSE, out.extra='style="float:right; padding:10px"'}
-knitr::include_graphics("/Users/briansullivan/Documents/GitHub/BrianWSullivan.github.io/BrianWSullivan.github.io/violenceimage.png")
-```
-
 <font size="4">**Challenge**</font>
 
 Recent research reported a number of motivations for violent sentiments, such as affective polarization, partisan strength, violent rhetoric from elites, and increased disagreement of policy beliefs. However, these findings tend to omit a large portion of the population who are not politically interested or are apolitical altogether. This means that the majority of the U.S. public is not included in these analyses. To account for the portion of the public that does not subscribe to the left-right political dynamic, it is important to investigate underlying psychological causes that affect all members of the population. 
@@ -70,10 +66,6 @@ knitr::include_graphics("/Users/briansullivan/Documents/GitHub/BrianWSullivan.gi
 
 Many leading political world powers have undergone, or are still in the process of subscribing to, a populist reformation. With the party platforms of Donald Trump and Bernie Sanders, the United States has not been immune to this global trend. _Populism_ is an ideology that considers society as two separate antagonistic groups: the pure people versus the corrupt elite. _Populists_, then, strive to appeal to the public and their concerns. The premise of populism argues that politics should be an expression of the general will of the people. 
 
-```{r out.width='50%', echo=FALSE, out.extra='style="float:right; padding:10px"'}
-knitr::include_graphics("/Users/briansullivan/Documents/GitHub/BrianWSullivan.github.io/BrianWSullivan.github.io/populismimage.png")
-```
-
 Despite populism’s goal of being of and for the will of the people, to be successful, populism needs a central figure to direct its messages. Due to an increase in economic and social grievances, populism has gained significant momentum within the last decade. Since its central messages revolve around anti-elitist and people’s centrism, populism poses a significant risk to democratic norms and principles, as democracies, like the U.S., retain the necessity of governance by representation. **_To prevent the spread of populism, it is important to investigate why people feel it is the solution to their problems._**
 
 <font size="4">**Challenge**</font>
@@ -125,10 +117,6 @@ knitr::include_graphics("/Users/briansullivan/Documents/GitHub/BrianWSullivan.gi
 <font size="6">**_What motivates people to believe in conspiracy theories?_**</font>
 
 <font size="4">**Background**</font>
-
-```{r out.width='50%', echo=FALSE, out.extra='style="float:right; padding:10px"'}
-knitr::include_graphics("/Users/briansullivan/Documents/GitHub/BrianWSullivan.github.io/BrianWSullivan.github.io/ctimage.png")
-```
 
 Conspiracy theories pose a fundamental threat to democratic norms in the United States. _Conspiracy theories_ are proposed explanations of events that fixates blames a small group of people acting in secret for their own benefit against a common goal that fails to meet an agreed upon standard of evidence. Research within the last ten years around conspiracy theories demonstrates that: 
 
